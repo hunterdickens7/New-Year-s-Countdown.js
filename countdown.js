@@ -1,4 +1,4 @@
-var countdown = new Countdown({
+var countdown = new Countdown({}                            
   selector: .timer
   dateStart: new date('2018/25/12 12:00')
   dateEnd: new date('2019/1/1 12:00')
