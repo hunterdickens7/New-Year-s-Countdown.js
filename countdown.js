@@ -1,17 +1,4 @@
-var countdown = new Countdown({}                            
-  selector: .timer
-  dateStart: new date('2018/25/12 12:00')
-  dateEnd: new date('2019/1/1 12:00')
-  msgBefore: "Merry Christmas!"
-  msgAfter: "Happy New Year!"
-  msgPattern: "{days} days, {hours} hours, {minutes} minutes and {seconds} seconds left before New Year.",
-  onEnd: function() {
-  console.log('Happy New Year!')
-},
-  onStart: function() {
-  console.log('Merry Christmas')
-}
-})
+
 (function(global) {
   "use strict";
 
